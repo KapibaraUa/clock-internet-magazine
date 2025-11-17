@@ -220,7 +220,7 @@
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     gap: 1px 15px;
-    margin: 250px 100px;
+    margin: 100px 100px;
 }
 
 .grid a
@@ -241,6 +241,7 @@
 .grid a:hover
 {
     transform: scale(1.1);
+    box-shadow: inset 0 0 10px 10px white;
 }
 
 .grid a img
@@ -252,4 +253,5 @@
 .grid a img:hover
 {
     transform: scale(1.1);
+    /* box-shadow: 0 0 20px 5px white; */
 }
