@@ -1,0 +1,255 @@
+.container1337 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.header {
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    color: #000000;
+    gap: 10px;
+}
+
+.header img {
+    margin: 0 20px;
+    width: 100px;
+    height: auto;
+
+
+}
+
+.sidebar {
+    display: flex;
+    background-color: aqua;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+}
+
+.header nav {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header nav li {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.loginbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50%;
+    color: #000000;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.loginbtn:hover {
+    background-color: lightgrey;
+}
+
+.loginbtn:active {
+
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+.loginbtn img {
+    width: 20%;
+    height: auto;
+    margin: 0;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    padding: 0;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50%;
+    color: #000000;
+    transition: all .2s linear;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cart:hover {
+    background-color: lightgrey;
+    transition: 1s;
+}
+
+.cart:active {
+
+    transform: scale(0.75);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+}
+
+.cart img {
+    width: 20%;
+    height: auto;
+    margin: 0;
+}
+
+/* From Uiverse.io by ErzenXz */
+.input {
+    width: 100%;
+    max-width: 220px;
+    height: 45px;
+    padding: 24px 25px;
+    border-radius: 45px;
+    border: 1.5px solid rgb(0, 0, 0);
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+    font-size: small;
+}
+
+.input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.input:active {
+    transform: scale(0.95);
+}
+
+.input:focus {
+    border: 2px solid grey;
+}
+
+/* Override Bootstrap nav-link colors to black */
+.nav-link {
+    color: #000000 !important;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link:hover {
+    color: #000000 !important;
+}
+
+.nav-link.active {
+    color: #000000 !important;
+}
+
+.nav-link.active:hover {
+    color: #000000 !important;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Carousel image sizing - smaller */
+#carouselExampleControls {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-inner {
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* Hide text in carousel indicators */
+.carousel-indicators li {
+    font-size: 0;
+}
+
+.carousel-indicators li::before {
+    content: '';
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 1px 15px;
+    margin: 250px 100px;
+}
+
+.grid a
+{
+    border: 3px solid darkgrey;
+    padding: 10px;
+    min-width: 150px;
+    width: 150px;
+    height: 200px;
+    background: radial-gradient(#1B3C53,#1B3C53);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.grid a:hover
+{
+    transform: scale(1.1);
+}
+
+.grid a img
+{
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+}
+.grid a img:hover
+{
+    transform: scale(1.1);
+}
